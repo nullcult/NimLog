@@ -1,7 +1,6 @@
 # NimLog
 Dirty Undetectable Nim keylogger
 
-Log file path
 You can edit the file path under the # Main program.
 
 Comiple
